@@ -1,16 +1,18 @@
 # StockTracker
 A node, express, mongoose app that uses finnhub.io api to search and track stock information.
+
 # Pictures
+![Image of App]
+(https://i.imgur.com/XgXf3sO.png)
 
 # Getting Started
+Heroku has not been launched yet
 
 # The Coding
- 
-#Show/discuss your code:
 
-☐ Show the "main" Mongoose model.
+☐ the "main" Mongoose model: user
 
-☐ Show your favorite EJS template.
+☐ favorite EJS template: new
 
 ☐ Show the controller for the main model.
 

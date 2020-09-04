@@ -1,14 +1,18 @@
 # StockTracker
 A node, express, mongoose app that uses finnhub.io api to search and track stock information.
 
-# Pictures
-![Image of App]
-(https://i.imgur.com/XgXf3sO.png)
+## Tech Used
+Node.js, Express, Mongoose, MongoDB, NPM finnhub-js
 
-# Getting Started
+## Pictures
+![Image of App](https://i.imgur.com/XgXf3sO.png "APP")
+
+## Notes
+Database issues prevent demonstration of full CRUD, hopefully fixed by lunch.
+## Getting Started
 Heroku has not been launched yet
 
-# The Coding
+## The Coding
 
 ☐ the "main" Mongoose model: user
 

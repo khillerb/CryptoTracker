@@ -8,11 +8,11 @@ Node.js, Express, Mongoose, MongoDB, NPM finnhub-js
 ![Image of App](https://i.imgur.com/XgXf3sO.png "APP")
 
 ## Notes
-Database issues prevent demonstration of full CRUD, hopefully fixed by lunch.
+Database issues prevent demonstration of full CRUD, hopefully fixed by Saturday
 https://trello.com/b/wHLJfvb6/sei-cc-9-cryptostocktracker
 
 ## Getting Started
-Heroku has not been launched yet
+https://afternoon-chamber-74122.herokuapp.com/
 
 ## The Coding
 

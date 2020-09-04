@@ -9,6 +9,8 @@ Node.js, Express, Mongoose, MongoDB, NPM finnhub-js
 
 ## Notes
 Database issues prevent demonstration of full CRUD, hopefully fixed by lunch.
+https://trello.com/b/wHLJfvb6/sei-cc-9-cryptostocktracker
+
 ## Getting Started
 Heroku has not been launched yet
 

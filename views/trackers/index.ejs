@@ -1,0 +1,9 @@
+<%- include('../partials/header') %>
+
+<% trackers.forEach(function(m) { %>
+    <tr>
+      <td><%= m.symbol %></td>
+      <td><a href="/<%= m._id %>">Tracker</a></td>
+    </tr>
+    <% }); %>
+<%- include('../partials/footer') %>

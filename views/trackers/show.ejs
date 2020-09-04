@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+<section id="show-page">
+    <div>
+      <form action="/<%= obj._id %>?_method=DELETE" method="POST"></form>
+        <input id='delete' type='submit' value='DELETE'>
+      </form>
+    </div>
+    <a href="/<%= obj._id %>/details">COMPANY DETAILS</a>
+    <div>
+      <form action="/<%= obj._id %>?_method=PUT" method="POST"></form>
+        <input id ='update' type='submit' value='UPDATE'>
+      </form>
+    </div></br>
+    <div>Symbol: </div>
+    <div><%= obj.symbol %></div>
+    <div>Current Price: </div>
+    <div><%= obj.currentPrice %></div>
+    <div>Open: </div>
+    <div><%= obj.openPrice %></div>
+    <div>Previous Close: </div>
+    <div><%= obj.previousClose %></div>
+    <div>Today High: </div>
+    <div><%= obj.todayHigh %></div>
+    <div>Today Low: </div>
+    <div><%= obj.todayLow  %></div>
+    <!-- start cast list -->
+    <!-- end cast list -->
+  </section>
+<%- include('../partials/footer') %>

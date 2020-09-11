@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { default: IndicesConstituents } = require('finnhub/dist/model/IndicesConstituents');
 const Schema = mongoose.Schema;
 const profileSchema = new Schema({
     name: String,

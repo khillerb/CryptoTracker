@@ -1,16 +1,18 @@
 <%- include('../partials/header') %>
 <section id="show-page">
+  <% if (user) { %>
     <div>
-      <form action="/<%= obj._id %>?_method=DELETE" method="POST"></form>
+      <form action="/trackers/<%= obj._id %>?_method=DELETE" method="POST">
         <input id='delete' type='submit' value='DELETE'>
       </form>
     </div>
-    <a href="/<%= obj._id %>/details">COMPANY DETAILS</a>
+    <a href="/trackers/<%= obj._id %>/details">COMPANY DETAILS</a>
     <div>
-      <form action="/<%= obj._id %>?_method=PUT" method="POST"></form>
+      <form action="/trackers/<%= obj._id %>?_method=PUT" method="POST">
         <input id ='update' type='submit' value='UPDATE'>
       </form>
     </div></br>
+    <% } %>
     <div>Symbol: </div>
     <div><%= obj.symbol %></div>
     <div>Current Price: </div>
